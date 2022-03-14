@@ -4,8 +4,17 @@ import type { RouteRecordRaw } from 'vue-router'
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'home',
-    component: () => import('~/views/index.vue')
+    redirect: '/main'
+  },
+  {
+    path: '/main',
+    name: 'main',
+    component: () => import('~/views/main/main.vue')
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'notFound',
+    component: () => import('~/views/not-found/not-found.vue')
   }
 ]
 
