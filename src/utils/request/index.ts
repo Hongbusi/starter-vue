@@ -55,6 +55,19 @@ class Request {
       }
     )
   }
+
+  request(config: RequestConfig): Promise<T> {
+    return new Promise((resolve, reject) => {
+      this.instance
+        .request(config)
+        .then((response) => {
+          resolve(response)
+        })
+        .catch((error) => {
+          reject(error)
+        })
+    })
+  }
 }
 
 export default Request
