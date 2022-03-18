@@ -3,8 +3,9 @@
   "packageManager": "pnpm@6.32.3",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite-ssg build",
+    "build": "vite-ssg build",
     "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
     "lint": "eslint ."
   },
   "dependencies": {
