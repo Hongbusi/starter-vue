@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
@@ -11,7 +12,10 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
     "composite": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "~/*": ["src/*"]
+    }
   },
   "include": [
     "src/**/*.ts",
