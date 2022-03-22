@@ -13,6 +13,11 @@
     "lib": ["esnext", "dom"],
     "composite": true,
     "allowSyntheticDefaultImports": true,
+    "types": [
+      "vite/client",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client"
+    ],
     "paths": {
       "~/*": ["src/*"]
     }
