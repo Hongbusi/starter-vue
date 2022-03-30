@@ -1,5 +1,7 @@
 # Vitemplate
 
+A template to quickly create a vue project.
+
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/) - born with fastness.
