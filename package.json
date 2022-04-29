@@ -1,6 +1,5 @@
 {
   "private": true,
-  "packageManager": "pnpm@6.32.3",
   "scripts": {
     "dev": "vite",
     "build": "vite-ssg build",
@@ -9,6 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@vueuse/core": "^8.3.1",
     "@vueuse/head": "^0.7.5",
     "nprogress": "^0.2.0",
     "vue": "^3.2.31",
