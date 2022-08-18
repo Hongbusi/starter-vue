@@ -1,4 +1,4 @@
-# Vitemplate
+# starter-vue
 
 A template to quickly create a vue project.
 
@@ -14,18 +14,18 @@ A template to quickly create a vue project.
 
 ## Try it now!
 
-> Vitemplate requires Node >=14
+> starter-vue requires Node >=14
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/Hongbusi/vitemplate/generate).
+[Create a repo from this template on GitHub](https://github.com/Hongbusi/starter-vue/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit Hongbusi/vitemplate my-vite-project
+npx degit Hongbusi/starter-vue my-vite-project
 cd my-vite-project
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
