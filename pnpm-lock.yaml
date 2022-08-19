@@ -4,7 +4,7 @@ specifiers:
   '@hongbusi/eslint-config': 0.3.4
   '@iconify-json/carbon': ^1.1.7
   '@types/nprogress': ^0.2.0
-  '@unocss/reset': 0.45.8
+  '@unocss/reset': ^0.45.8
   '@vitejs/plugin-vue': 3.0.3
   '@vueuse/core': 9.1.0
   '@vueuse/head': ^0.7.9
@@ -25,6 +25,7 @@ specifiers:
   vue-tsc: 0.40.1
 
 dependencies:
+  '@unocss/reset': 0.45.8
   '@vueuse/core': 9.1.0_vue@3.2.37
   '@vueuse/head': 0.7.9_vue@3.2.37
   nprogress: 0.2.0
@@ -35,7 +36,6 @@ devDependencies:
   '@hongbusi/eslint-config': 0.3.4_4rv7y5c6xz3vfxwhbrcxxi73bq
   '@iconify-json/carbon': 1.1.7
   '@types/nprogress': 0.2.0
-  '@unocss/reset': 0.45.8
   '@vitejs/plugin-vue': 3.0.3_vite@3.0.8+vue@3.2.37
   critters: 0.0.16
   eslint: 8.22.0
@@ -605,7 +605,6 @@ packages:
 
   /@unocss/reset/0.45.8:
     resolution: {integrity: sha512-zeIYa/d/amPhX6/del0k6K8/Hdl/nN12XCeiVfBKymlilAjQQyV64V/qdLBtSKzqegT68O/xMscla7pZDto4Hw==}
-    dev: true
 
   /@unocss/scope/0.45.8:
     resolution: {integrity: sha512-Zf08xhCBqFHCaf8kGwMXu0+JRR3U9v8m7Y2LwUK4zg6LdcfGX9luykPfiNJSsFQ20l7cWBcj2g4tWdzFvIcDMA==}
