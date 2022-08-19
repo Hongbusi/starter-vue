@@ -2,16 +2,6 @@
 
 A template to quickly create a vue project.
 
-## Features
-
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/) - born with fastness.
-
-- 📦 [Components auto importing](./src/components)
-
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
-
-- 🦾 TypeScript, of course
-
 ## Try it now!
 
 > starter-vue requires Node >=14
@@ -45,20 +35,16 @@ And, enjoy :)
 
 ### Development
 
-Just run and visit http://localhost:3000
-
 ```bash
 pnpm dev
 ```
 
 ### Build
 
-To build the App, run
-
 ```bash
 pnpm build
 ```
 
-## LICENSE
+## License
 
-MIT, Copyright (c) 2022 Hongbusi.
+[MIT](./LICENSE) License © 2022 [Hongbusi](https://github.com/Hongbusi) 
