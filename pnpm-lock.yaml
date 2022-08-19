@@ -11,7 +11,7 @@ specifiers:
   critters: ^0.0.16
   eslint: ^8.22.0
   nprogress: ^0.2.0
-  pinia: 2.0.19
+  pinia: ^2.0.19
   typescript: ^4.7.4
   unocss: 0.45.8
   unplugin-auto-import: 0.11.2
@@ -29,6 +29,7 @@ dependencies:
   '@vueuse/core': 9.1.0_vue@3.2.37
   '@vueuse/head': 0.7.9_vue@3.2.37
   nprogress: 0.2.0
+  pinia: 2.0.19_j6bzmzd4ujpabbp5objtwxyjp4
   vue: 3.2.37
   vue-router: 4.1.3_vue@3.2.37
 
@@ -39,7 +40,6 @@ devDependencies:
   '@vitejs/plugin-vue': 3.0.3_vite@3.0.8+vue@3.2.37
   critters: 0.0.16
   eslint: 8.22.0
-  pinia: 2.0.19_j6bzmzd4ujpabbp5objtwxyjp4
   typescript: 4.7.4
   unocss: 0.45.8_vite@3.0.8
   unplugin-auto-import: 0.11.2_obmlko6hceoahr6itoucrugfeu
@@ -3274,7 +3274,7 @@ packages:
       typescript: 4.7.4
       vue: 3.2.37
       vue-demi: 0.13.8_vue@3.2.37
-    dev: true
+    dev: false
 
   /pkg-types/0.3.4:
     resolution: {integrity: sha512-s214f/xkRpwlwVBToWq9Mu0XlU3HhZMYCnr2var8+jjbavBHh/VCh4pBLsJW29rJ//B1jb4HlpMIaNIMH+W2/w==}
@@ -3757,7 +3757,6 @@ packages:
     resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: true
 
   /ufo/0.8.5:
     resolution: {integrity: sha512-e4+UtA5IRO+ha6hYklwj6r7BjiGMxS0O+UaSg9HbaTefg4kMkzj4tXzEBajRR+wkxf+golgAWKzLbytCUDMJAA==}

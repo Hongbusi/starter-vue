@@ -1,8 +1,8 @@
 import {
   defineConfig,
-  presetUno,
   presetAttributify,
   presetIcons,
+  presetUno,
   transformerDirectives,
   transformerVariantGroup
 } from 'unocss'
