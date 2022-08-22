@@ -12,7 +12,7 @@ import { toggleDark } from '~/composables'
       <div i="carbon-sun dark:carbon-moon" />
     </button>
 
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/Hongbusi/vitemplate" target="_blank" title="GitHub">
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/Hongbusi/starter-vue" target="_blank" title="GitHub">
       <div i-carbon-logo-github />
     </a>
   </nav>
