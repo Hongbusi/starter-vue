@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { toggleDark } from '~/composables'
+</script>
 
 <template>
   <nav text-xl mt-6>
@@ -14,7 +17,3 @@
     </a>
   </nav>
 </template>
-
-<script setup lang="ts">
-import { toggleDark } from '~/composables'
-</script>

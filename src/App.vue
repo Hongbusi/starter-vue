@@ -1,7 +1,3 @@
-<template>
-  <router-view />
-</template>
-
 <script setup lang="ts">
 useHead({
   title: 'starter-vue',
@@ -10,3 +6,7 @@ useHead({
   ]
 })
 </script>
+
+<template>
+  <router-view />
+</template>
