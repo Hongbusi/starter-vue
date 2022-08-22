@@ -1,12 +1,14 @@
 {
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite-ssg build",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@unocss/reset": "^0.45.8",
@@ -18,6 +20,8 @@
     "vue-router": "^4.1.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@hongbusi/eslint-config": "0.3.4",
     "@iconify-json/carbon": "^1.1.7",
     "@types/node": "^18.7.9",
@@ -25,6 +29,8 @@
     "@vitejs/plugin-vue": "3.0.3",
     "critters": "^0.0.16",
     "eslint": "^8.22.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "typescript": "^4.7.4",
     "unocss": "0.45.8",
     "unplugin-auto-import": "0.11.2",
@@ -34,5 +40,8 @@
     "vite-plugin-vue-layouts": "0.7.0",
     "vite-ssg": "0.20.2",
     "vue-tsc": "0.40.1"
+  },
+  "lint-staged": {
+    "*.{vue,js,jsx,ts,tsx,json,md}": "eslint --fix"
   }
 }
