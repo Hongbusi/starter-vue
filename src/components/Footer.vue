@@ -1,19 +1,21 @@
 <script setup lang="ts">
-import { toggleDark } from '~/composables'
+import { Github, Moon, Sunny } from '@hongbusi/icons-vue'
+import { isDark, toggleDark } from '~/composables'
 </script>
 
 <template>
-  <nav text-xl mt-6>
-    <router-link class="icon-btn mx-2" to="/" title="首页">
-      <div i-carbon-home />
-    </router-link>
-
-    <button class="icon-btn mx-2 !outline-none" title="切换深色模式" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" />
+  <nav class="text-xl mt-6">
+    <button class="mx-2 !outline-none" title="切换深色模式" @click="toggleDark()">
+      <Icon>
+        <Moon v-if="isDark" />
+        <Sunny v-else />
+      </Icon>
     </button>
 
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/Hongbusi/starter-vue" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
+    <a class="mx-2" rel="noreferrer" href="https://github.com/Hongbusi/starter-vue" target="_blank" title="GitHub">
+      <Icon>
+        <Github />
+      </Icon>
     </a>
   </nav>
 </template>

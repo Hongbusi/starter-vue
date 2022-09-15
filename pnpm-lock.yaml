@@ -4,7 +4,7 @@ specifiers:
   '@commitlint/cli': ^17.0.3
   '@commitlint/config-conventional': ^17.0.3
   '@hongbusi/eslint-config': 0.3.4
-  '@iconify-json/carbon': ^1.1.7
+  '@hongbusi/icons-vue': ^0.0.5
   '@types/node': ^18.7.9
   '@types/nprogress': ^0.2.0
   '@unocss/reset': ^0.45.8
@@ -30,6 +30,7 @@ specifiers:
   vue-tsc: 0.40.1
 
 dependencies:
+  '@hongbusi/icons-vue': 0.0.5_vue@3.2.37
   '@unocss/reset': 0.45.8
   '@vueuse/core': 9.1.0_vue@3.2.37
   '@vueuse/head': 0.7.9_vue@3.2.37
@@ -42,7 +43,6 @@ devDependencies:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
   '@hongbusi/eslint-config': 0.3.4_4rv7y5c6xz3vfxwhbrcxxi73bq
-  '@iconify-json/carbon': 1.1.7
   '@types/node': 18.7.9
   '@types/nprogress': 0.2.0
   '@vitejs/plugin-vue': 3.0.3_vite@3.0.8+vue@3.2.37
@@ -414,6 +414,14 @@ packages:
       - typescript
     dev: true
 
+  /@hongbusi/icons-vue/0.0.5_vue@3.2.37:
+    resolution: {integrity: sha512-68h3gO142a9zmEGAKommj7VLPTxuM3czD2VBUVqkXeKF91jKqy8hUNFjrcOshMOQfMUyzFeP8YXVOmiJL9Hiyw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.2.37
+    dev: false
+
   /@humanwhocodes/config-array/0.10.4:
     resolution: {integrity: sha512-mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw==}
     engines: {node: '>=10.10.0'}
@@ -431,12 +439,6 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
-    dev: true
-
-  /@iconify-json/carbon/1.1.7:
-    resolution: {integrity: sha512-QULSpNWKaX4auIbjITDynfALdJYvOOy/xZb+aLOqCgvpBcmbz5tbqvow4r25FWtVsi4FHVpNQ8vyJZXsD1Hlxg==}
-    dependencies:
-      '@iconify/types': 1.1.0
     dev: true
 
   /@iconify/types/1.1.0:

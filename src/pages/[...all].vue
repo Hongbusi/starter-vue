@@ -1,6 +1,6 @@
 <template>
   <div>
-    not fount
+    Not Fount Page
   </div>
 </template>
 
